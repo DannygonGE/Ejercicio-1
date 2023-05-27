@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: red;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    gap: 50px;
+
+}
+
+.container {    
+    background-color: gray;
+    height: 100px;
+    width: 300px;
+    padding: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.link {
+    color: red;
+}
+
+.click-me {
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.selector {
+    background-color: blue;
+}
